@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="2dp">
+
+    <android.support.v7.widget.CardView
+    android:id="@+id/_cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+    android:id="@+id/_ivthumb"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/bigbuckbunny"
+    android:scaleType="centerInside"/>
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <TextView
+    android:id="@+id/_tvTitle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Big Buck Bunny"
+    android:textSize="20sp"
+    android:textColor="@color/black" />
+
+    <TextView
+    android:id="@+id/_tvDiscription"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Big Buck Bunny"
+    android:textSize="15sp"
+    android:maxLines="3"/>
+    </LinearLayout>
+
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@color/black"/>
+    </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "863408939597",
+    "firebase_url": "https://videoplayer-94d57.firebaseio.com",
+    "project_id": "videoplayer-94d57",
+    "storage_bucket": "videoplayer-94d57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863408939597:android:07c7c79b758791f4",
+        "android_client_info": {
+          "package_name": "com.mobiotics.videoplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863408939597-om6o20grom1p5lspj8705trr9cc3q8qt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobiotics.videoplayer",
+            "certificate_hash": "b977fd7e03fb45d71c4ca3ede09b45994095e706"
+          }
+        },
+        {
+          "client_id": "863408939597-01ekcj9oq1691fnvh4s1bu4tja1aanfd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7dczAjwcGPPrn9q65wR9h7azfyIz89r0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863408939597-01ekcj9oq1691fnvh4s1bu4tja1aanfd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
